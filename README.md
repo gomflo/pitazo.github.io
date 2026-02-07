@@ -24,15 +24,11 @@ Esto sobrescribe `src/data/liga-mx-hoy.json`. Si la estructura de la web cambia,
 
 ## Build y despliegue (GitHub Pages)
 
-```bash
-npm run build
-```
+El sitio se despliega automáticamente con GitHub Actions al hacer push a `main`.
 
-La salida queda en `dist/`. Para publicar en GitHub Pages:
+**Configuración inicial (solo la primera vez):**
 
 1. En el repo, ve a **Settings → Pages**.
-2. **Source**: Deploy from a branch.
-3. **Branch**: `gh-pages` (o `main`) y carpeta `/ (root)` o **docs** si configuraste `outDir: 'docs'` en Astro.
+2. En **Source**, selecciona **GitHub Actions**.
 
-Si usas la rama `gh-pages`, sube el contenido de `dist/` a esa rama (por ejemplo con el paquete `gh-pages`: `npx gh-pages -d dist`).
-# pitazo.github.io
+Tras cada push a `main`, el workflow compila el sitio y lo publica en `https://pitazo.github.io`.
