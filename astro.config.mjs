@@ -4,6 +4,6 @@ import react from '@astrojs/react';
 
 export default defineConfig({
   site: 'https://gomflo.github.io',
-  base: '/pitazo.github.io/',
+  base: '/pitazo/',
   integrations: [tailwind(), react()],
 });
