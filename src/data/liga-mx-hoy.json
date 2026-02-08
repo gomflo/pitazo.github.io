@@ -1,61 +1,6 @@
 {
-  "updatedAt": "2026-02-07T23:51:02.206Z",
+  "updatedAt": "2026-02-08T06:48:54.264Z",
   "matchesByDate": {
-    "2026-02-07": [
-      {
-        "time": "17:00",
-        "home": "Toluca",
-        "away": "Cruz Azul",
-        "channels": [
-          "TV Azteca",
-          "FOX One",
-          "ViX Premium",
-          "Azteca Deportes Network",
-          "FOX",
-          "Azteca 7"
-        ]
-      },
-      {
-        "time": "17:00",
-        "home": "Querétaro",
-        "away": "Club León",
-        "channels": [
-          "FOX One",
-          "FOX+"
-        ]
-      },
-      {
-        "time": "19:05",
-        "home": "Atlas",
-        "away": "Pumas UNAM",
-        "channels": [
-          "TUDN",
-          "ViX Premium",
-          "Layvtime YouTube",
-          "Canal 5"
-        ]
-      },
-      {
-        "time": "19:06",
-        "home": "Pachuca",
-        "away": "FC Juárez",
-        "channels": [
-          "FOX One",
-          "FOX+"
-        ]
-      },
-      {
-        "time": "21:10",
-        "home": "América",
-        "away": "Monterrey",
-        "channels": [
-          "TUDN",
-          "ViX Premium",
-          "Layvtime YouTube",
-          "Canal 5"
-        ]
-      }
-    ],
     "2026-02-13": [
       {
         "time": "19:00",
